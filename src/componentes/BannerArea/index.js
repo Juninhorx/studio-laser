@@ -10,8 +10,7 @@ const BannerArea = () => {
             </header>
             <Banner/>
             <TituloInferior/>   
-        </section>
-        
+        </section> 
     )
 }
 

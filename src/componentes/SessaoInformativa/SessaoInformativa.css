@@ -1,0 +1,16 @@
+.sessao-informativa {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sessao-informativa h2{
+    width: 70%;
+    margin-bottom: 40px;
+    color: black;
+}
+.sessao-informativa p{
+    width: 80%;
+    margin-bottom: 40px;
+}
