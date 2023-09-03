@@ -17,6 +17,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #EFEFEF;
 }
 
 header {
@@ -114,7 +115,6 @@ header img {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    background: #EFEFEF;
 
 }
 
@@ -220,7 +220,6 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #EFEFEF;
 }
 
 .comentarios {
@@ -231,6 +230,48 @@ header img {
 
 .comentarios img {
     width: 100%;
+}
+
+.perguntas-frequentes-section {
+    display: flex;
+    justify-content: center;
+}
+
+.perguntas-frequentes {
+    width: 55%;
+}
+
+.titulo-perguntas-frequentes {
+    color: #767676;
+
+    font-size: 35px;
+}
+
+.perguntas-frequentes section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.perguntas-frequentes h1 {
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section details {
+    margin: 1%;
+}
+
+section details summary {
+    background-color: white;
+    padding: 2%;
+    border-radius: 7px;
+}
+
+section details p {
+    background-color: white;
+    padding: 2%;
 }
 
 
