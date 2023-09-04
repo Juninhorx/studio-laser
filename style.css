@@ -202,11 +202,12 @@ header img {
     justify-content: center;
     text-decoration: none;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .botao-principal-timeline a button{
-    width: 50%;
-    height: 40px;
+    width: 60%;
+    height: 50px;
     background-color: #F4AF27;
     border: none;
     border-radius: 5px;
@@ -235,6 +236,8 @@ header img {
 .perguntas-frequentes-section {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .perguntas-frequentes {
@@ -266,7 +269,8 @@ section details {
 section details summary {
     background-color: white;
     padding: 2%;
-    border-radius: 7px;
+    border-radius: 7px 0px 0px 0px;
+    font-weight: 500;
 }
 
 section details p {
@@ -274,9 +278,98 @@ section details p {
     padding: 2%;
 }
 
+.perguntas-frequentes-section .botao-principal-timeline {
+    width: 40%;
+}
+
+
+.laranja {
+    background: #F4AF27;
+    color: white;
+}
+
+.last-section {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-section h1 {
+    padding-top: 40px;
+    font-size: 65px;
+    font-weight: 400;
+    color: #767676;
+}
+
+.last-section h1 span {
+    font-weight: 700;
+    color: #F4AF27;
+}
+
+.last-section h2 {
+    padding: 8px 0;
+    color: #767676;
+    font-size: 35px;
+}
+
+.last-section h3 {
+    font-weight: 400;
+    color: #767676;
+    font-size: 20px;
+}
+
+.last-section .botao-principal-timeline {
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;git}
+
+footer div {
+    width: 50%;
+}
+
+footer .div-logo {
+    display: flex;
+    justify-content: center;
+}
+
+footer div .logo {
+    width: 40%;
+    padding-top: 50px;
+}
+
+
+.div-modelo {
+    padding: 0;
+    margin: 0;
+}
+ .modelo {
+    width: 50%;
+    margin: -90% 0 0 95%;
+}
 
 
 
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f4b02771;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F4AF27;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px #767676;
+}
 
 
 
