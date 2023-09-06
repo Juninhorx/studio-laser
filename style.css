@@ -580,7 +580,7 @@ button:hover {
     width: 90%;
   }
 
-  .botao-principal-timeline {
+  .nonDisplay {
     display: none;
   }
 
@@ -592,6 +592,14 @@ button:hover {
     align-items: center;
     text-align: center;
   }
-
   
+  .botao-principal-timeline a {
+    width: 350px;
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .div {
+    z-index: -2;
+  }
 }
